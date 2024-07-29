@@ -7,7 +7,8 @@ hero:
   # text: "Text"
   tagline: "Viewer / Annotations / Analyse / Cross-platform"
   image:
-    src: /images/logo/logo.svg
+    # src: /images/logo/logo.svg
+    src: /snapshot/home.png
     alt: EcgAnalyzer
   actions:
     - theme: brand
@@ -22,12 +23,12 @@ hero:
 
 features:
   - title: Viewer
-    details: Smoothly view multiple waveforms of ECG
+    details: Smoothly view multiple waveforms of ECG(.dat)
     icon: 
       light: /images/home/viewer.svg
       dark:  /images/home/viewer_blue.svg
   - title: Annotations
-    details: Custom labeling of annotations and exported to wfdb format files
+    details: Custom labeling of annotations and exported to wfdb format files(.atr or .qrs)
     icon: 
       light: /images/home/tags.svg
       dark:  /images/home/tags_blue.svg
@@ -46,17 +47,17 @@ features:
     icon: 
       light: /images/home/windows.svg
       dark:  /images/home/windows_blue.svg
-  - title: MacOS
+  - title: MacOS(Ongoing)
     details: 10/11/12/13/14
     icon: 
       light: /images/home/macos.svg
       dark:  /images/home/macos_blue.svg
-  - title: Linux
+  - title: Linux(Ongoing)
     details: Debian / Ubuntu / Deepin / UOS / OpenKylin / ArchLinux / Mint / Kali / Fedora / Devuan / Pop!_OS / etc.
     icon: 
       light: /images/home/linux.svg
       dark:  /images/home/linux_blue.svg
-  - title: App Store
+  - title: App Store(Ongoing)
     details: Microsoft Store / Deepin / UOS / Openkylin / Spark Store
     icon: 
       light: /images/home/appstore.svg
@@ -72,7 +73,7 @@ features:
 ##### Supported Chips: 
   - x86-64
   - ARM64
-  - LOONGSON (龙芯)
+  - LOONGSON
 <!-- ##### Supported Operating Systems:
   - **Windows:** 7 / 8 / 10 / 11
   - **MacOS:** 10 / 11 / 12 / 13 / 14
