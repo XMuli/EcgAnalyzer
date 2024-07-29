@@ -2,71 +2,72 @@
 [[toc]]
 
 ## Describe
-EcgAnalyzer is a beautiful and useful "Screenshot & Pinning" software, also supports "OCR" and "Image Translate" software, supports Windows, MacOS, Linux operating systems.
-
-This program will be developed and maintained for at least ten years starting in 2023 and is **free** of charge!
+EcgAnalyzer is a simple, modern and beautiful ECG viewing and analyzing software with cross-platform support.
 
 [<img src="https://img.shields.io/github/release/XMuli/EcgAnalyzer.svg?label=version" alt="tags"/>](https://github.com/XMuli/EcgAnalyzer/releases)
 
-[<img src="https://img.shields.io/github/downloads/XMuli/EcgAnalyzer/total" alt="Total Downloads" />](https://github.com/XMuli/EcgAnalyzer/releases)
+<!-- [<img src="https://img.shields.io/github/downloads/XMuli/EcgAnalyzer/total" alt="Total Downloads" />](https://github.com/XMuli/EcgAnalyzer/releases) -->
 
 
 ## Featured Functions
 
 - **Featured Functions**
-  - Screenshots & Pins
-  - Image Translation (Chinese/English/Japanese/Korean/Russian/etc.)
-  - OCR Text Extraction
-  - Window Properties
-  - Auto-detection
-  - Code Signature
-- **Style Functions**
-  - Transparent frosted acrylic
-  - Customizable active color
-  - Customizable "Border & Crosshair" Widths
-  - Paint toolbar support: Vertical & Horizontal
-  - Shadow effect on pinning window
-  - Staple transparency
-  - Multiple system styles
-- **Other Functions**
-  - Custom size and position screenshots, time-lapse screenshots, window detection screenshots.
-  - API for translating and extracting text, support for private key
-  - Manual save & shortcut save & auto save
-  - Auto copy to clipboard
-  - Adjust font and size
-  - Shortcut key customization
-  - Internationalized translation
-  - Open Source Library Acknowledgment
+  - Import path support
+  - Switch between .dat files at will
+  - Add custom labels and save to local file.
+  - Hide/show any lines (click the small box in the upper right corner).
+  - Preview annotated files (click on the top triangle).
+  - Customize auxiliary lines to locate any waveform paragraph.
 - **Cross-platform porting**
   - Windows 7 / 8 / 10 / 11
-  - Ubuntu 20.04 / 22.04 / 24.04
+  <!-- - Ubuntu 20.04 / 22.04 / 24.04
   - Deepin / UOS 20-23
-  - openkylin 1.0.x
-- **App Store**
+  - openkylin 1.0.x -->
+<!-- - **App Store**
   - Microsoft Store 
   - Deepin / UOS Store 
   - openkylin Store
-  - Spark Store
+  - Spark Store -->
 
 <br>
 
-## Keyboard shortcuts
+## Tutorial For Mouse:
 
-| Keys                                                         | Description                                                  | Mode   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
-| <kbd>F6</kbd>                                                | Window activation capture scree                              | Global |
-| <kbd>Ctrl</kbd> + <kbd>F6</kbd>                              | Delay screen capture                                         | Global |
-| <kbd>Shift</kbd> + <kbd>F6</kbd>                             | Custom size capture screen                                   | Global |
-| 🐱‍🐉                                                           |                                                              |        |
-| <kbd>Esc</kbd>                                               | Quit Screenshot                                              | Local  |
-| <kbd>Tab</kbd>                                               | Select the depth of the detected sub-window rectangle        | Local  |
-| <kbd>`</kbd> / <kbd>~</kbd>                                  | Show / Hide information about the current window ( ExeName / Path / Size / PID / HWnd ...) | Local  |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>            | Shortcut keys to quickly save to a specified path            | Local  |
-| <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> ( <kbd>A</kbd>, <kbd>S</kbd>, <kbd>W</kbd>, <kbd>D</kbd> ) | Move selection 1px                                           | Local  |
-| <kbd>Ctrl</kbd> + <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> | Extended selection 10 px                                     | Local  |
-| <kbd>Shift</kbd> + <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> | Shrink selection 10 px                                       | Local  |
+- Right click: search for the nearest point
+- Slide middle button: zoom in and out
+- Left-click: drag to move the graph following the cursor position
+- Double-click left button: manually label the specified waveform 
 
-## Code Signing Certificate 🎉
+Friendly to medical professionals. ﮩـﮩﮩ٨ـ🫀ﮩ٨ـﮩﮩ٨ـ  ❤️ 👨🏻‍⚕️
+
+---
+
+## 描述
+EcgAnalyzer 是一款简单，现代且漂亮的 ECG 查看和分析的软件，支持跨平台。
+
+## 特色功能
+
+- **特色功能**
+  - 支持导入路径
+  - 随意切换 .dat 文件查看
+  - 自定义添加标签，保存到本地文件
+  - 隐藏/显示任意线条（点击右上角小方框）
+  - 预览注释文件（单击顶部三角形）
+  - 自定义辅助线，定位任意波形段落
+- **支持系统**
+  - Windows 7 / 8 / 10 / 11
+
+
+## 鼠标提示：
+- 单击右键：查询最近的点
+- 滑动中键：放大缩小图
+- 单击左键：跟随光标位置拖曳移动图
+- 双按左键：手动对指定的波形段落进行标签
+
+对医学相关人员友好。 ﮩـﮩﮩ٨ـ🫀ﮩ٨ـﮩﮩ٨ـ  ❤️ 👨🏻‍⚕️
+
+  ## Code Signing Certificate 🎉
 > Downloading from GitHub [Release](https://github.com/XMuli/EcgAnalyzer/releases) is highly recommended for the fastest and most stable updates. After downloading the file, right-click on the file's properties to verify its uniqueness and make sure the file has not been tampered with;
 
-<img src="https://fastly.jsdelivr.net/gh/XMuli/xmuliPic@pic/2024/202402010109545.png" width="600"/>
+
+<img src="https://fastly.jsdelivr.net/gh/XMuli/xmuliPic@pic/2024/202407300103175.png" width="600"/>
